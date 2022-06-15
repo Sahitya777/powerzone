@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import {Stack} from '@mui/material'
 import Logo from '../assets/images/Logo.png'
+
 function Navbar() {
   return (
     <Stack
@@ -17,7 +18,7 @@ function Navbar() {
         direction="row"
         gap="40px"
         fontSize="24px"
-        alignItem="flex-end"
+        alignitem="flex-end"
       >
         <Link to="/" style={{textDecoration:'none',color:'#3A1212',borderBottom:'3px solid #FF2625'}}>Home</Link>
         <a href='#exercises' style={{textDecoration:'none',color:'#3A1212'}}>Exercises</a>
