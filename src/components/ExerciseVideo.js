@@ -10,7 +10,7 @@ const ExerciseVideo = ({exerciseVideos,name}) => {
       <Stack justifyContent="flex-start" flexWrap="wrap" alignItems="center"
         sx={{flexDirection:{lg:'row'},gap:{lg:'110px',xs:'20px'}}}
       >
-        {exerciseVideos.slice(0,3).map((item,index)=>(
+        {exerciseVideos.slice(0,4).map((item,index)=>(
           <a
             key={index}
             className="exercise-video"
