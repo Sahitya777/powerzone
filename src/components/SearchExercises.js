@@ -60,7 +60,9 @@ const SearchExercises=({setExercises,bodyPart,setBodyPart})=> {
             position:'absolute',
             right:'0'
           }}
+          
           onClick={handleSearch}
+          href="#exercises"
         >
           Search
         </Button>
